@@ -1,6 +1,6 @@
 export THEOS = /theos/
 
-ARCHS = armv7 arm64 arm64e
+ARCHS = armv7 arm64
 
 INSTALL_TARGET_PROCESSES = SpringBoard
 

@@ -1,9 +1,10 @@
 Package: com.thomz.statusbarbg
 Name: StatusBarBG
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker
-Version: 0.0.1
+Version: 1.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Add a background to your status bar!
 Maintainer: Thomz
 Author: Thomz
 Section: Tweaks
+Icon: file:///Library/PreferenceBundles/StatusBarBG.bundle/icon@2x.png

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.thomz.statusbarbg</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>alternateColors</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.thomz.statusbarbg</string>
+				<key>key</key>
+				<string>macolor</string>
+				<key>fallback</key>
+				<string>#ffffff</string>
+				<key>alpha</key>
+				<true/>
+			</dict>
+			<key>label</key>
+			<string>Color</string>
+			<key>key</key>
+			<string>macolor</string>
+			<key>sublabel</key>
+			<string>Choose the color you want</string>
+	</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>iOS 6 mode</string>
+			<key>defaults</key>
+			<string>com.thomz.statusbarbg</string>
+			<key>key</key>
+			<string>iso6</string>
+			<key>default</key>
+			<false/>
+			<key>sublabel</key>
+			<string>Don't waste time for your iOS 6 setup</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>sublabel</key>
+			<string>This is required to apply changes</string>
+		</dict>	
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>action</key>
+		<string>paypal</string>
+		<key>label</key>
+		<string>Developed with ♥ by Thomz</string>
+		<key>sublabel</key>
+		<string>If you like my work, consider buying me a coffe :)</string>
+	</dict>
+
+
+	</array>
+	<key>title</key>
+	<string>StatusBarBG</string>
+</dict>
+</plist>
